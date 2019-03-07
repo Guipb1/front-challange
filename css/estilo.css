@@ -1,0 +1,53 @@
+.teste {
+	margin-top: 50px;
+}
+
+input, button{
+	border-radius: 50px;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px 10px  10px  20px; 
+	border: 2px solid #dee2e6;  
+}
+
+h1 {
+	border-right-style: 20px;
+}
+
+.title{
+		text-align: center;
+		margin-bottom: 25px;
+		margin-top: 40px; 
+}
+
+  
+.buttonRegister{
+
+		background-color: #5175dc;
+		color: white;
+		font-weight: bold;
+
+	}	
+
+
+.buttonGoogle{
+
+	background-color: #e8443e;
+	color: white;
+	font-weight: bold;
+
+   }
+
+ .buttonFacebook{
+
+ 	background-color: #3d5a97;
+ 	color: white;
+ 	font-weight: bold;
+ }
+
+		
+
+
+  /*#3d5a97*/
+
+ 
