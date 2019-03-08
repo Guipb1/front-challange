@@ -26,6 +26,7 @@ h1 {
 		background-color: #5175dc;
 		color: white;
 		font-weight: bold;
+		margin-bottom: 0px;	
 
 	}	
 
@@ -43,16 +44,32 @@ h1 {
  	background-color: #3d5a97;
  	color: white;
  	font-weight: bold;
+ 	margin-bottom: 0px;
  }
 
  i{
  	margin-right: 4px; 
-
  }
 
-		
+ #cachorroImage{
+ 	padding-top:30%;
+ }
+
+.corCachorro{
+	background-color: yellow;
+}		
+
+.corForm{
+	background-color: white;
+}
 
 
-  /*#3d5a97*/
+.imgCachorro{
+	left: 43px;
+	position: absolute;
+	top: 12px;
+}
+
+
 
  

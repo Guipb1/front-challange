@@ -15,76 +15,80 @@
      <!-- link do icone -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-
   </head>
-  <body>
+  <body style="background-color: blue">
+  	
     <!-- escreva seu codigo aqui -->
-    	
-    
-    	
-    	<div class="container">
-    		<h2 class="title"> Create an Account! </h2>
+  <form onsubmit="checkPassword();">
+    <div class="container">	
+	    <div class="row">
+		    <div class="col-5 corCachorro">
+		    	<img src="image/cachorro.png"/ id="cachorroImage" class="imgCachorro"   > 
+		    </div>
+		    <div class="col-7 corForm">
 
-    		
-    		<div class="row">
-    			<div class="col-6">
-    				<input type="text" " id="name"  placeholder="First Name">
-    			</div>
+	    		<h2 class="title"> Create an Account! </h2>
+	    		<div class="row">
+	    			<div class="col-6">
+	    				<input type="text" " id="name"  placeholder="First Name">
+	    			</div>
 
-    			<div class="col-6">
-    				<input type="text"  id="phone"  placeholder="Phone">
-    			</div>
-    		</div>	
+	    			<div class="col-6">
+	    				<input type="text"  id="phone"  placeholder="Phone">
+	    			</div>
+	    		</div>	
 
-    		<div class="row">	
-    			<div class="col-12">
-    				<input type="email" id="Email" placeholder="Email Address">
-    			</div>
-    		</div>	
+	    		<div class="row">	
+	    			<div class="col-12">
+	    				<input type="email" id="Email" placeholder="Email Address">
+	    			</div>
+	    		</div>	
 
-    		<div class="row">	
-    			<div class="col-6">
-    				<input type="password"  id="password"  placeholder="Password">
-    			</div>
+	    		<div class="row">	
+	    			<div class="col-6">
+	    				<input type="password"  id="password"  placeholder="Password">
+	    			</div>
 
-    			<div class="col-6">
-    				<input type="password"  id="repeat"  placeholder="Repeat Password">
-    			</div>
-    		</div>	
+	    			<div class="col-6">
+	    				<input type="password"  id="repeat"  placeholder="Repeat Password">
+	    			</div>
+	    		</div>	
 
-    		<div class="row">	
-    			<div class="col-12">
-    				
-    				<button type="button" class="buttonRegister" id="botaoresgistrar">Register Account</button>
-    			</div>
-    		</div>	
+	    		<div class="row">	
+	    			<div class="col-12">
+	    				
+	    				<button type="button" class="buttonRegister" id="botaoresgistrar">Register Account</button>
+	    			</div>
+	    		</div>	
 
-    		<hr>
+	    		<hr>
 
-    		<div class="row">
-    			<div class="col-12">
-    				
-    				<button type="button" class="buttonGoogle" id="botaogoogle"><i class="fab fa-google"></i>Register with Google</button>
+	    		<div class="row">
+	    			<div class="col-12">
+	    				
+	    				<button type="button" class="buttonGoogle" id="botaogoogle"><i class="fab fa-google"></i>Register with Google</button>
 
-    			</div>
-    		</div>	
+	    			</div>
+	    		</div>	
 
-    		<div class="row">
-    			<div class="col-12">
-    				
-    				<button type="button" class="buttonFacebook"><i class="fab fa-facebook-f"></i>Register with Facebook</button>
-    			</div>
-    		</div>	
-    		
-    		<hr>
+	    		<div class="row">
+	    			<div class="col-12">
+	    				
+	    				<button type="button" class="buttonFacebook"><i class="fab fa-facebook-f"></i>Register with Facebook</button>
+	    			</div>
+	    		</div>	
+	    		
+	    		<hr>
 
-    		<button type="button" class="btn btn-link">Forgot Password?</button>
+	    		<button type="button" class="btn btn-link" style="margin-bottom: 0px;">Forgot Password?</button>
 
-    		<button type="button" class="btn btn-link">Already have an Account?Login!</button>
+	    		<button type="button" class="btn btn-link">Already have an Account?Login!</button>
+		    </div>
+		</div>
+		
 
-    </div>	
-    		
-    	
+     </div>
+    </form>	
 
 
 
