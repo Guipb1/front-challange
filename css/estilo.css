@@ -1,7 +1,3 @@
-.teste {
-	margin-top: 50px;
-}
-
 input, button{
 	border-radius: 50px;
 	width: 100%;
@@ -10,14 +6,25 @@ input, button{
 	border: 2px solid #dee2e6;  
 }
 
-h1 {
-	border-right-style: 20px;
+body,html {
+
+	/*background-image:linear-gradient(#347bda,#0058bd);*/
+	background-color: blue;
+	background-repeat: no-repeat;
+	height: 100%
 }
+
+h1 { border-right-style: 20px; }
+body, html { height: 100%;  }
+i{ margin-right: 4px; }
+
+
+
 
 .title{
 		text-align: center;
-		margin-bottom: 25px;
-		margin-top: 40px; 
+		margin-bottom: 5%;
+		margin-top: 5%; 
 }
 
   
@@ -36,10 +43,9 @@ h1 {
 	background-color: #e8443e;
 	color: white;
 	font-weight: bold;
+}
 
-   }
-
- .buttonFacebook{
+.buttonFacebook{
 
  	background-color: #3d5a97;
  	color: white;
@@ -47,28 +53,34 @@ h1 {
  	margin-bottom: 0px;
  }
 
- i{
- 	margin-right: 4px; 
- }
-
- #cachorroImage{
- 	padding-top:30%;
- }
 
 .corCachorro{
-	background-color: yellow;
+	background-color: #f6b02f;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }		
 
 .corForm{
 	background-color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 
 
 .imgCachorro{
-	left: 43px;
+
 	position: absolute;
-	top: 12px;
+	bottom: 0px;
+	right: 0px;
 }
+
+
 
 
 

@@ -1,7 +1,5 @@
 $( document ).ready(function() {
     $("#phone").mask("(00) 0000-00009");
-
-    }
 } );
 
 function checkPassword() {
@@ -9,7 +7,7 @@ function checkPassword() {
         var confirmPassword = $("#repeat").val();
 
         if (password != confirmPassword)
-            alert("ok");
+            alert("As senhas nao conferem");
         else
-            alert("erro nao igual");
+            alert("As senhas conferem");
     }
